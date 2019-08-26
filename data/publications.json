@@ -1,0 +1,34 @@
+{
+	"title" : "publications",
+	"publications" : [
+		{
+			"icon" : "",
+			"title" : "A Textural Deep Neural Network Combined With Handcrafted Features for Mechanical Failure Classification",
+			"url" : "10.1109/ICIT.2019.8755046",
+			"authors" : "M.X. Bastidas-Rodri­guez, F.A. Prieto-Ortiz, Luisa Polania",
+			"description" : "2019 IEEE International Conference on Industrial Technology (ICIT)"
+		},
+
+		{
+			"icon" : "",
+			"title" : "DenseNet model combined with Haralick’s handcrafted features for texture classification",
+			"url" : "10.1109/LA-CCI.2018.8625205",
+			"authors" : "C.A. Rivera-Morales, M.X. Bastidas-Rodríguez, F.A. Prieto-Ortiz",
+			"description" : "IEEE Latin American Conference on Computational Intelligence (LA-CCI), 2018"
+		},
+		{
+			"icon" : "",
+			"title" : "Fractographic classification in metallic materials by using computer vision",
+			"url" : "http://dx.doi.org/10.1016/j.engfailanal.2015.10.008",
+			"authors": "M.X. Bastidas-Rodríguez, F.A. Prieto-Ortiz and E. Espejo-Mora",
+			"description" : "Engineering Failure Analysis, 59 (2016) 237–252"
+		},
+		{
+			"icon" : "",
+			"title" : "Fractographic classification in metallic materials by using 3D processing and computer vision techniques",
+			"url":"https://revistas.uptc.edu.co/index.php/ingenieria/article/view/5301",
+			"authors":"M.X. Bastidas-Rodríguez, F.A. Prieto-Ortíz, E. Espejo-Mora",
+			"description" : "Revista Facultad de Ingeniería, Vol 25, No 43 (2016) 83-96"
+		}
+	]
+}

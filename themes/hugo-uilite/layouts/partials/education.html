@@ -1,0 +1,26 @@
+{{ $education := .Site.Data.education }}
+
+<section id="education" class="white">
+  <h2 class="heading">{{ $education.title }}</h2>
+  <div id="timeline">
+    {{ range $index, $element := $education.education }}
+    <div class="timeline-item clearfix">
+      <div class="timeline-icon"></div>
+      
+      <div class="timeline-content {{ if eq (mod $index 2) 0 }} right {{ end }}">
+        <span class="date">{{ $element.timeperiod }}</span>
+        <h5 class="">{{ $element.titleName}}</h5>
+        <p class="">{{ $element.position }}
+        <br class="">{{ $element.university }}
+        <br class="">{{ $element.place}}
+        <br><b class="">{{ $element.timeperiod1}}</b>
+        <br class="">{{ $element.addinfo}}
+        {{ if ($element.url_advisor1) }}
+            <a href="{{$element.url_advisor1}}"><img src="{{.Site.BaseURL}}images/Utokyo.png" height="20" width="20"/></a>
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+  </div>
+
+</section>
