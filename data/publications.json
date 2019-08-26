@@ -1,7 +1,21 @@
 {
 	"title" : "publications",
 	"publications" : [
-		
+		{
+			"icon" : "",
+			"title" : "A Textural Deep Neural Network Combined With Handcrafted Features for Mechanical Failure Classification",
+			"url" : "10.1109/ICIT.2019.8755046",
+			"authors" : "M.X. Bastidas-Rodriguez, F.A. Prieto-Ortiz, Luisa Polania",
+			"description" : "2019 IEEE International Conference on Industrial Technology (ICIT)"
+		},
+
+		{
+			"icon" : "",
+			"title" : "DenseNet model combined with Haralick's handcrafted features for texture classification",
+			"url" : "10.1109/LA-CCI.2018.8625205",
+			"authors" : "C.A. Rivera-Morales, M.X. Bastidas-Rodriguez, F.A. Prieto-Ortiz",
+			"description" : "IEEE Latin American Conference on Computational Intelligence (LA-CCI), 2018"
+		},
 		{
 			"icon" : "",
 			"title" : "Fractographic classification in metallic materials by using computer vision",
