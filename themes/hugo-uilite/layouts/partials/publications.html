@@ -1,0 +1,27 @@
+{{ $publications := .Site.Data.publications }}
+
+<section class="">
+  <h2 class="heading">{{ $publications.title }}</h2>
+
+  <div class="row justify-content">
+
+    {{ range $index, $element := $publications.publications }}
+
+    <div class="">
+      <div class="card p-4">        
+            <i class="mt-3  fa fa-{{ $element.icon }} fa-3x"></i>
+            <h5 class="mt-4">{{ $element.title }}
+                    {{ if ($element.url) }}
+                    <a href="{{$element.url}}"><img src="{{.Site.BaseURL}}images/pdf.png" height="40" width="40"/></a>
+                    {{ end }}
+
+            </h5>
+            <br class="text-muted">{{ $element.authors }}
+            <br class="text-muted">{{ $element.description }}
+       
+      </div>
+    </div>
+
+    {{ end }}
+  </div>
+</section>
